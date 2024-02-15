@@ -1,0 +1,5 @@
+<p>child component</p>
+<ng-content select="[textContent]"></ng-content>
+<div *ngIf="showIt">
+    <ng-container [ngTemplateOutlet]="content.template"></ng-container>
+</div>
